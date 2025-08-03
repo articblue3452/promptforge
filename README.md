@@ -1,90 +1,49 @@
-\# PromptForge: Cinematic Prompt Enhancer using Ollama + LLaMA 3
+# 🔥 PromptForge – Cinematic Prompt Enhancer
 
-
-
-Transform bland prompts into vivid, emotionally charged, cinematic one-liners using the power of open-source LLMs running locally via \[Ollama](https://ollama.com/).
-
-
-
-\## 💡 Example
-
-
-
-\*\*Input:\*\*
-
-a man in a cyberpunk city
-
-
-
-
-
-\*\*Enhanced:\*\*
-
-As neon-drenched rain lashed down like a chorus of strobing seraphim, a lone figure emerged from the smoky haze of the city's underbelly, his eyes blazing with a rebellious intensity.
-
-
-
-
+Transform simple text prompts into **vivid, emotional, cinematic one-liners** using open-source LLMs via [Ollama](https://ollama.com).
 
 ---
 
+## 🧠 What It Does
 
+Enter a basic idea → get back a **one-line enhanced prompt** with sensory depth, mood, and style. Great for:
 
-\## 🚀 Features
-
-\- No internet or API key required (runs locally via Ollama)
-
-\- Uses LLaMA 3 to generate expressive one-liners
-
-\- CLI based — minimal and fast
-
-\- Enhances any type of prompt: image generation, story seeds, AI art, etc.
-
-
+- AI image generation
+- Storytelling
+- Branding
+- Game concepting
 
 ---
 
+## 💻 How to Run
+
+1. **Install Ollama**:  
+   👉 https://ollama.com
+
+2. **Pull a model** (e.g., llama3):  
+ollama pull llama3
 
 
-\## 🛠️ Requirements
-
-
-
-\- Python 3.8+
-
-\- \[Ollama installed](https://ollama.com/download)
-
-\- A downloaded model (e.g., `ollama run llama3`)
-
-
-
----
-
-
-
-\## 📦 Installation
-
-
-
-1\. Install Python dependencies (optional, for subprocess):
-
-
-
-```bash
-
+3. **Install Python dependencies**:  
 pip install -r requirements.txt
 
 
-
-Install and run Ollama:
-
-
-
-&nbsp;	# Download Ollama if you haven’t
-
-&nbsp;		ollama run llama3
+4. **Run the script**:
+python prompt_enhancer.py
 
 
+---
+
+## 📸 Example Output
+
+Enter base prompt: a man in a cyberpunk city
+
+💡 Enhanced Prompt:
+A lone vigilante in a neon-drenched cityscape, his shadow slicing through the electric mist.
 
 
+---
 
+## 📜 License
+
+MIT — free to use, fork, remix.
