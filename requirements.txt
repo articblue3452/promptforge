@@ -1,0 +1,4 @@
+# Python version (optional)
+python >=3.10
+
+# No external packages are required.
